@@ -7,20 +7,19 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/iconapp"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WelcomeActivity"></activity>
         <activity
-            android:name=".MainActivity"
+            android:name="id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.MainActivity"
             android:label="Weator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,7 +33,7 @@
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.MainActivity" />
         </activity>
     </application>
 
