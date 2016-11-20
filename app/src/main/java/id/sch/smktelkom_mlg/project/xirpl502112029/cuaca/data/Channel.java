@@ -12,6 +12,18 @@ public class Channel implements JSONPopulator {
     private Item item;
     private String location;
 
+    public Units getUnits() {
+        return units;
+    }
+
+    public Item getItem() {
+        return item;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
     @Override
     public void populate(JSONObject data) {
         units = new Units();
@@ -42,4 +54,6 @@ public class Channel implements JSONPopulator {
 
         return data;
     }
+
+
 }

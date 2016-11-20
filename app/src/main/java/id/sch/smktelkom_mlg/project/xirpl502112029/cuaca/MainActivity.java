@@ -22,6 +22,15 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.data.Channel;
+import id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.data.Condition;
+import id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.data.LocationResult;
+import id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.listener.GeocodingServiceListener;
+import id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.listener.WeatherServiceListener;
+import id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.service.GoogleMapsGeocodingService;
+import id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.service.WeatherCacheService;
+import id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.service.YahooWeatherService;
+
 public class MainActivity extends AppCompatActivity implements WeatherServiceListener, GeocodingServiceListener, LocationListener {
 
     private ImageView weatherIconImageView;

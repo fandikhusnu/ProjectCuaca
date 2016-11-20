@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.listener;
+package id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.service;
 
 import android.net.Uri;
 import android.os.AsyncTask;
@@ -12,6 +12,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 import id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.data.Channel;
+import id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.listener.WeatherServiceListener;
 
 /**
  * Created by microsoft on 11/20/2016.

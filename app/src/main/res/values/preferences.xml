@@ -1,0 +1,25 @@
+<resources>
+    <string name="pref_geolocation_enabled">geolocation_enabled</string>
+    <string name="pref_manual_location">manual_location</string>
+    <string name="pref_cached_location">cached_location</string>
+    <string name="pref_temperature_unit">temperature_unit</string>
+    <string name="pref_needs_setup">needs_setup</string>
+    <string name="pref_default_unit">C</string>
+
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_enable_geolocation">Enable GeoLocation</string>
+    <string name="pref_description_enable_geolocation">Automatically obtain weather information based on my current location</string>
+
+    <string name="pref_title_manual_location">Manual Location</string>
+    <string name="pref_default_location">Malang, East Java</string>
+
+    <string name="pref_title_temperature_unit">Temperature Unit</string>
+    <string-array name="pref_temperature_unit_titles">
+        <item>&#176;C</item>
+        <item>&#176;F</item>
+    </string-array>
+    <string-array name="pref_temperature_unit_values">
+        <item>C</item>
+        <item>F</item>
+    </string-array>
+</resources>
