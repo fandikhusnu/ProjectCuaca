@@ -16,6 +16,8 @@ import id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.data.LocationResult;
 import id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.listener.GeocodingServiceListener;
 
 /**
+ * Menentukan lokasi dari inputan [ada Setting Manual Lat & Long
+ *
  * Created by Samudra~ on 20/11/2016.
  */
 

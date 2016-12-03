@@ -11,26 +11,26 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.MainActivity">
 
-    <ImageView
-        android:id="@+id/weatherIconImageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:contentDescription="@string/condition_icon"
-        android:src="@drawable/icon_na" />
-
     <TextView
         android:id="@+id/temperatureTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/weatherIconImageView"
         android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:text="@string/temperature"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@android:color/white"
         android:textStyle="bold"
         android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/weatherIconImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/temperatureTextView"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/condition_icon"
+        android:src="@drawable/icon_na" />
 
     <TextView
         android:id="@+id/conditionTextView"

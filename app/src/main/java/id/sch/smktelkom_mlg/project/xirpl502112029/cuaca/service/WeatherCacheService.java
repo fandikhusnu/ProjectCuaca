@@ -15,6 +15,7 @@ import id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.data.Channel;
 import id.sch.smktelkom_mlg.project.xirpl502112029.cuaca.listener.WeatherServiceListener;
 
 /**
+ *
  * Created by Samudra~ on 20/11/2016.
  */
 
@@ -74,7 +75,7 @@ public class WeatherCacheService {
 
                     return channel;
 
-                } catch (FileNotFoundException e) { // cache file doesn't exist
+                } catch (FileNotFoundException e) {
                     error = new CacheException(context.getString(R.string.cache_exception));
                 } catch (Exception e) {
                     error = e;
